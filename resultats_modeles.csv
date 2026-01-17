@@ -1,0 +1,5 @@
+Modèle,Accuracy_Train,Accuracy_Test,Precision,Recall,F1_Score,ROC_AUC,Avg_Precision
+Régression Logistique,0.8994,0.8998,0.4146,0.9151,0.5707,0.9625,0.6872
+Random Forest,0.9587,0.928,0.504,0.6895,0.5824,0.9375,0.6093
+Naive Bayes,0.8597,0.8612,0.3321,0.897,0.4848,0.9235,0.3702
+XGBoost,0.895,0.8945,0.4043,0.9471,0.5667,0.969,0.7355
