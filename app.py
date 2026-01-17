@@ -749,4 +749,20 @@ elif page == "📁 Import CSV":
 # ============================================================
 # FOOTER - PARTICIPANTS
 # ============================================================
+st.markdown("---")
+with st.expander("ℹ️ À propos de l'équipe (Groupe 6)", expanded=True):
+    col1, col2 = st.columns(2)
+    with col1:
+        st.markdown("""
+        ### 👥 Membres du groupe
+        * **Awa TOURE**
+        * **Abdou Rasmane KIRAKOYE**
+        """)
+    with col2:
+        st.markdown("""
+        ### &nbsp;
+        * **Dadje Marcel GNAPI**
+        * **Guy Roger Junior GNAORE**
+        """)
+    st.caption("Projet Data Analyst - Python & Machine Learning")
 
