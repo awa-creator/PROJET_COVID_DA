@@ -152,10 +152,10 @@ if donnees is None or modele is None:
 
 # Liste des variables utilisées pour les prédictions
 VARIABLES = [
-    'USMER', 'MEDICAL_UNIT', 'SEX', 'PATIENT_TYPE', 'INTUBED', 'PNEUMONIA',
-    'AGE', 'PREGNANT', 'DIABETES', 'COPD', 'ASTHMA', 'INMSUPR',
-    'HIPERTENSION', 'OTHER_DISEASE', 'CARDIOVASCULAR', 'OBESITY',
-    'RENAL_CHRONIC', 'TOBACCO', 'CLASIFFICATION_FINAL', 'ICU'
+    'SEX', 'AGE', 'PATIENT_TYPE', 'PNEUMONIA', 'PREGNANT', 'DIABETES', 
+    'COPD', 'ASTHMA', 'INMSUPR', 'HIPERTENSION', 'CARDIOVASCULAR', 
+    'RENAL_CHRONIC', 'OTHER_DISEASE', 'OBESITY', 'TOBACCO', 
+    'MEDICAL_UNIT', 'INTUBED', 'ICU'
 ]
 
 # ------------------------------------------------------------
@@ -348,13 +348,12 @@ elif page == "🔮 Prédiction":
     if bouton_soumis:
         # Préparer les données d'entrée
         donnees_entree = np.array([[
-            usmer, unite_medicale, sexe, age, enceinte, type_patient,
-            1 if pneumonie else 0, intubation, soins_intensifs, classification,
+            sexe, age, type_patient, 1 if pneumonie else 0, enceinte,
             1 if diabete else 0, 1 if copd else 0, 1 if asthme else 0,
             1 if immunodepression else 0, 1 if hypertension else 0,
-            1 if cardiovasculaire else 0, 1 if obesite else 0,
-            1 if insuffisance_renale else 0, 1 if tabac else 0,
-            1 if autre_maladie else 0
+            1 if cardiovasculaire else 0, 1 if insuffisance_renale else 0,
+            1 if autre_maladie else 0, 1 if obesite else 0, 1 if tabac else 0,
+            unite_medicale, intubation, soins_intensifs
         ]])
 
         # Faire la prédiction
