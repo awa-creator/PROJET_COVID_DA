@@ -5,7 +5,7 @@ Ce projet a été réalisé par le **Groupe 6** dans le cadre du cours de Data A
 Il s'agit d'une application **Streamlit** interactive permettant d'analyser les données épidémiologiques du COVID-19 et de prédire le risque de mortalité des patients à l'aide d'un modèle de Machine Learning (Random Forest).
 
 
-## 🚀 Installation et Lancement
+##  Installation et Lancement
 
 Pour que l'application fonctionne correctement (notamment le modèle de prédiction), il est important d'installer les dépendances avec les bonnes versions.
 
@@ -34,7 +34,7 @@ streamlit run app.py
 
 L'application s'ouvrira automatiquement dans votre navigateur par défaut.
 
-## 📊 Fonctionnalités
+##  Fonctionnalités
 
 1.  **Tableau de bord** : Vue d'ensemble des statistiques (Mortalité, Pneumonie, etc.) avec graphiques interactifs.
 2.  **Prédiction** : Formulaire pour entrer les symptômes d'un patient et obtenir une estimation de risque (Faible/Élevé) en temps réel.
@@ -44,5 +44,6 @@ L'application s'ouvrira automatiquement dans votre navigateur par défaut.
 
 ---
 *Projet généré le 17 Janvier 2026 - Licence Pro Data Analysis*
+
 
 
