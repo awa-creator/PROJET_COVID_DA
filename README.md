@@ -4,11 +4,6 @@ Ce projet a été réalisé par le **Groupe 6** dans le cadre du cours de Data A
 
 Il s'agit d'une application **Streamlit** interactive permettant d'analyser les données épidémiologiques du COVID-19 et de prédire le risque de mortalité des patients à l'aide d'un modèle de Machine Learning (Random Forest).
 
-## 👥 Membres du Groupe 6
-* **Awa TOURE**
-* **Abdou Rasmane KIRAKOYE**
-* **Dadje Marcel GNAPI**
-* **Guy Roger Junior GNAORE**
 
 ## 🚀 Installation et Lancement
 
@@ -49,4 +44,5 @@ L'application s'ouvrira automatiquement dans votre navigateur par défaut.
 
 ---
 *Projet généré le 17 Janvier 2026 - Licence Pro Data Analysis*
+
 
