@@ -750,12 +750,6 @@ elif page == "📁 Import CSV":
 # FOOTER - PARTICIPANTS
 # ============================================================
 st.markdown("---")
-with st.expander("ℹ️ Crée ", expanded=True):
-    col1 = st.columns(1)
-    with col1:
-        st.markdown("""
-        ### 👥
-         **Awa TOURE**
-        """)
+with st.expander("ℹ️ Crée par Awa TOURE ", expanded=True):
     st.caption("Projet Data Analyst - Python & Machine Learning")
 
